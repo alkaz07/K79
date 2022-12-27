@@ -17,6 +17,7 @@ public class Main {
         int counter = 0; // создаем счетчик шагов робота;
         int result=-1;
         // задать координаты;
+        Robot rob = new Robot(50, 50, 0, matrix);
         int x = 50;
         int y = 50;
         int direction = 0; //направление
